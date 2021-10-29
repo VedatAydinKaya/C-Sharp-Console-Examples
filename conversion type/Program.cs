@@ -74,8 +74,9 @@ namespace conversion_type
             string ZZ = 12.5d.ToString();
 
             Console.WriteLine("ZZ:" + ZZ);
+            
 
-            // System.Convert Sınıfı 
+            // System.Convert Sınıfı  
 
             Console.WriteLine("******* System Convert Sınıfı ");
 
@@ -91,6 +92,9 @@ namespace conversion_type
 
         }
 
+
+
+         //  A new method declared as static
         public static void ParseMethod()
         {
             string metin1 = "10";
