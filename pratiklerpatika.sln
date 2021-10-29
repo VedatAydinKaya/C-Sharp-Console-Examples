@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oparatorler", "oparatorler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch_case", "switch_case\switch_case.csproj", "{5E9D3D2B-7842-4496-AD99-9509D14C8FEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conversion type", "conversion type\conversion type.csproj", "{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5E9D3D2B-7842-4496-AD99-9509D14C8FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E9D3D2B-7842-4496-AD99-9509D14C8FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E9D3D2B-7842-4496-AD99-9509D14C8FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
