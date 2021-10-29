@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conversion type", "conversi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazırMetotlar_String", "HazırMetotlar_String\HazırMetotlar_String.csproj", "{3B4A087F-0DCD-47CB-974D-E679B8E198E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazir_Metotlar_DateTime-Math", "Hazir_Metotlar_DateTime-Math\Hazir_Metotlar_DateTime-Math.csproj", "{56498811-C445-4458-A9F2-0FE34C002CE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{3B4A087F-0DCD-47CB-974D-E679B8E198E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B4A087F-0DCD-47CB-974D-E679B8E198E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B4A087F-0DCD-47CB-974D-E679B8E198E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56498811-C445-4458-A9F2-0FE34C002CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56498811-C445-4458-A9F2-0FE34C002CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56498811-C445-4458-A9F2-0FE34C002CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56498811-C445-4458-A9F2-0FE34C002CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
