@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception-handling", "excep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-elseif", "if-elseif\if-elseif.csproj", "{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oparatorler", "oparatorler\oparatorler.csproj", "{6D6F6282-9A94-4C93-ADE4-E7498CA0A920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6F6282-9A94-4C93-ADE4-E7498CA0A920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6F6282-9A94-4C93-ADE4-E7498CA0A920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6F6282-9A94-4C93-ADE4-E7498CA0A920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6F6282-9A94-4C93-ADE4-E7498CA0A920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
