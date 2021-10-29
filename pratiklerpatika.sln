@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degiskenler", "degiskenler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception-handling", "exception-handling\exception-handling.csproj", "{13756D72-56A7-4069-BB0C-4ABA93A62F5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-elseif", "if-elseif\if-elseif.csproj", "{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{13756D72-56A7-4069-BB0C-4ABA93A62F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13756D72-56A7-4069-BB0C-4ABA93A62F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13756D72-56A7-4069-BB0C-4ABA93A62F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2730CDAE-70E7-45D9-821C-F86D1A39B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
