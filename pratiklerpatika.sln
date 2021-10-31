@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch_case", "switch_case\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conversion type", "conversion type\conversion type.csproj", "{188DAAB9-1B9D-455E-AEF6-2EB3BD3C2FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazırMetotlar_String", "HazırMetotlar_String\HazırMetotlar_String.csproj", "{3B4A087F-0DCD-47CB-974D-E679B8E198E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazırMetotlar_String", "HazırMetotlar_String\HazırMetotlar_String.csproj", "{3B4A087F-0DCD-47CB-974D-E679B8E198E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazir_Metotlar_DateTime-Math", "Hazir_Metotlar_DateTime-Math\Hazir_Metotlar_DateTime-Math.csproj", "{56498811-C445-4458-A9F2-0FE34C002CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazir_Metotlar_DateTime-Math", "Hazir_Metotlar_DateTime-Math\Hazir_Metotlar_DateTime-Math.csproj", "{56498811-C445-4458-A9F2-0FE34C002CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Collection-List", "Generic_Collection-List\Generic_Collection-List.csproj", "{8573F2FD-04E2-4234-B428-61DE16B3CB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic_Collection-List", "Generic_Collection-List\Generic_Collection-List.csproj", "{8573F2FD-04E2-4234-B428-61DE16B3CB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{8E3D17F6-ABA9-48AF-AA8C-5A390FB4BFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8573F2FD-04E2-4234-B428-61DE16B3CB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8573F2FD-04E2-4234-B428-61DE16B3CB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8573F2FD-04E2-4234-B428-61DE16B3CB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3D17F6-ABA9-48AF-AA8C-5A390FB4BFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3D17F6-ABA9-48AF-AA8C-5A390FB4BFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3D17F6-ABA9-48AF-AA8C-5A390FB4BFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3D17F6-ABA9-48AF-AA8C-5A390FB4BFC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
