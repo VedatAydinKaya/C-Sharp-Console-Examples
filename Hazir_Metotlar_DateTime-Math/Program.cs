@@ -77,7 +77,7 @@ namespace Hazir_Metotlar_DateTime_Math
             Console.WriteLine(Math.Log(5));
             Console.WriteLine(Math.Exp(3));  // e^3
 
-            Console.WriteLine(Math.Log10(10))  //1;
+            Console.WriteLine(Math.Log10(10));  //1;
 
 
 
