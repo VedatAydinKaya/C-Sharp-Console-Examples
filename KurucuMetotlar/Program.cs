@@ -6,6 +6,18 @@ namespace KurucuMetotlar
     {
         static void Main(string[] args)
         {
+            /* Constructor Method 
+
+            1- Yapıcı metotların isimleri sınıf isimleri ile aynı olmak zorundadır.
+
+            2- Public olarak bildirilmeleri gerekir
+            
+            3-Geri dönüş değerleri yoktur.
+
+
+
+             */
+
 
             // Constructor Metotta initial olarak string ifadeye : null  boolean ifadeye:false ve int ifadeye :0 degerini atar
 
