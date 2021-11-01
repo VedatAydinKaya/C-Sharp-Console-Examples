@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "static_sinif_uyeler", "stat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_kavrami", "struct_kavrami\struct_kavrami.csproj", "{11E9DA82-453F-410C-A89B-21736FAD5930}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum", "enum\enum.csproj", "{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{11E9DA82-453F-410C-A89B-21736FAD5930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E9DA82-453F-410C-A89B-21736FAD5930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E9DA82-453F-410C-A89B-21736FAD5930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +171,7 @@ Global
 		{537D66A6-3B52-4835-815E-FA2A5AE105AC} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 		{8654D3BF-DFE7-4809-9C06-22539A2D64E3} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 		{11E9DA82-453F-410C-A89B-21736FAD5930} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
+		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02D34E63-B07A-4894-826F-94ADBC1CAA01}
