@@ -31,9 +31,6 @@ namespace static_sinif_uyeler
 
 
 
-
-
-
         }
     }
 
