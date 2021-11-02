@@ -32,7 +32,7 @@ namespace encapsulation_property
             ogrenci.OgrenciBilgileriniGetir();
 
 
-            Ogrenci ogrenci1 = new Ogrenci("Deniz", "Arda", 256, 1);
+            Ogrenci ogrenci1 = new Ogrenci("Deniz", "Arda", 256, 2);
 
             ogrenci1.SinifAzalt();
             ogrenci1.SinifAzalt();
@@ -73,7 +73,7 @@ namespace encapsulation_property
 
             set 
             {
-                if (sinif<1)
+                if (value<1)
                 {
                     Console.WriteLine("Sınıf en az 1 olabilir !!!");
                     sinif = 1;
