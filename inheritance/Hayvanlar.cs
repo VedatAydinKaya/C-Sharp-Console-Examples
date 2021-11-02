@@ -12,16 +12,22 @@ namespace inheritance
         {
             Console.WriteLine("Hayvanlar Adaptasyon yaparlar");
         }
+        public override void UyaranlaraTepki()
+        {
+            base.UyaranlaraTepki();    // üst sınıftaki komutları çalıştırır.
+
+            Console.WriteLine("Hayvanlar temasa tepki verir");
+        }
     }
 
     public class Surungunler:Hayvanlar
     {
         public Surungunler() 
         {
-            base.Adaptasyon();
-            base.Beslenme();
-            base.Bosaltım();
-            base.Solunum();
+            base.Adaptasyon();  // hayvanlaradan alınan kalıtım ile fotosentez yapma metotu tanımlandı
+            base.Beslenme();    // hayvanlar da canlılardan kalıtım alarak beslenme metotu ozelligini kazandı
+            base.Bosaltım();    // hayvanlar da canlılardan kalıtım alarak bosaltım metotu ozelligini kazandı
+            base.Solunum();     // hayvanlar da canlılardan kalıtım alarak solunum metotu ozelligini kazandı
 
         }
 
@@ -34,12 +40,13 @@ namespace inheritance
     public class Kuslar:Hayvanlar
     {
 
-        public Kuslar() 
+        public Kuslar()  // Constructor
         {
             base.Adaptasyon();
             base.Beslenme();
             base.Bosaltım();
             base.Solunum();
+            base.UyaranlaraTepki();
 
         }
         public void Ucmak() 

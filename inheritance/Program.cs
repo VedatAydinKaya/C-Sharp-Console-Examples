@@ -14,9 +14,9 @@ namespace inheritance
             //     |       |                   |                 |
             //  Tohumlu    Tohumsuz         Surungenler         Kuslar
 
-            TohumluBitkiler tohumluBitkiler = new TohumluBitkiler();
+            TohumluBitkiler tohumluBitki = new TohumluBitkiler();
         
-            tohumluBitkiler.TohumlaCogalma();
+            tohumluBitki.TohumlaCogalma(); // once constuctor calisti sonra metot islendi
 
             Console.WriteLine("******************");
 
