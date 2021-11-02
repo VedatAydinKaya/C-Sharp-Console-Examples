@@ -6,6 +6,17 @@ namespace encapsulation_property
     {
 
         //Enkapsulleme bir özeliği başka sınıflardan saklamak yada korumaktır.
+        /* 
+         Örneğin siz bir property yani özellik tanımı yaptınız ve diğer sınıflar içerisinden erişilsin ama sadece okumak için erişilsin değeri dışarıdan 
+        değiştirilemesin istiyorsunuz bunu kapsülleme yaparak sağlayabilirsiniz. Kapsülleme işlemini ise property leri kullanarak yapabilirsiniz.
+        
+        Kapsülleme sayesinden nesneler bilinçsiz olarak kullanımdan korunmuş olur. 
+        Fakat bazı durumlarda private field'lara erişmemiz ve özelliklerini değiştirmemiz gerekebilir. 
+        Bu durumda Property Kavramı devreye girer. Property bir field'ın değerini geri döndürmeye(Get) ve yeni bir değer(Set) atamaya olanak sağlar.
+
+         */
+
+
         static void Main(string[] args)
         {
             Ogrenci ogrenci = new Ogrenci();
@@ -25,7 +36,7 @@ namespace encapsulation_property
 
             ogrenci1.SinifAzalt();
             ogrenci1.SinifAzalt();
-            ogrenci.OgrenciBilgileriniGetir();
+            ogrenci1.OgrenciBilgileriniGetir();
 
 
         }
@@ -36,7 +47,7 @@ namespace encapsulation_property
     {
         // field alani
 
-        private string isim;     
+        private string isim;
 
         private string soyisim;
 
@@ -48,7 +59,7 @@ namespace encapsulation_property
         // Encapsulleme =>>>>>>>> Public Property alani
         public string Isim    
         {
-            get { return isim; }         // get field degerini geri dondurmeye yarar;  sadece get varsa read-only olur
+            get { return isim; }         // get; field degerini geri dondurmeye yarar;  sadece get varsa read-only olur
 
             set { isim = value; }       // set field degerine yeni deger atamaya yarar
         
@@ -58,19 +69,18 @@ namespace encapsulation_property
         public int OgrenciNo { get => ogrenciNo; set => ogrenciNo = value; }
         public int Sinif 
         {
-            get => sinif;
+            get => sinif;       
 
             set 
             {
-                if (value<1)
+                if (sinif<1)
                 {
                     Console.WriteLine("Sınıf en az 1 olabilir !!!");
                     sinif = 1;
                 }
                 else
                   sinif = value;   
-            } 
-        
+            }
 
         }
 
@@ -104,4 +114,9 @@ namespace encapsulation_property
         }
 
     }
+
+
+
+    
+
 }
