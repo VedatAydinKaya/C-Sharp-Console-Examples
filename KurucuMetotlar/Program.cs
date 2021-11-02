@@ -40,7 +40,23 @@ namespace KurucuMetotlar
             Console.WriteLine("*******Calisan 3 Bilgileri **********");
 
             Calisan calisan3 = new Calisan("Zikriye","Urkmez");
-       
+
+            Console.WriteLine("*******Calisan 4 Bilgileri **********");
+
+            Calisan calisan4 = new Calisan();
+
+            calisan4.CalisanBilgileri();
+
+            /* 
+             Her sınıfın biz tanımlamasakta bir tane kurucu metotu vardır. Buna varsayılan kurucu metot (default constructor) denir.
+            Default constructor'ın görevi sınıfın içerindeki özelliklere ilk değer ataması yapılmadığında onların default değerlerini set etmektir. 
+            Şöyle düşünebilirsiniz; sınıf içerisinde string veri tipinde bir özellik varsa ve siz ilk değer atamasını yapmazsanız varsayılan 
+            kurucu onun atamasını  arka planda null olarak yapar. 
+            Aynı integer tipinde bir özelliğin ilk değer atamasını 0 olarak yapar.
+             
+             */
+
+
 
 
         }
