@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation_Property", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "static_sinif_uyeler", "static_sinif_uyeler\static_sinif_uyeler.csproj", "{8654D3BF-DFE7-4809-9C06-22539A2D64E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_kavrami", "struct_kavrami\struct_kavrami.csproj", "{11E9DA82-453F-410C-A89B-21736FAD5930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "struct_kavrami", "struct_kavrami\struct_kavrami.csproj", "{11E9DA82-453F-410C-A89B-21736FAD5930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum", "enum\enum.csproj", "{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum", "enum\enum.csproj", "{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{45D4B30C-CC37-4852-9AE5-BF68DC8725CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance", "inheritance\inheritance.csproj", "{4BA8280D-6902-433A-8922-DA7D7A776E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inheritance", "inheritance\inheritance.csproj", "{4BA8280D-6902-433A-8922-DA7D7A776E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arayuzler_yeni", "arayuzler_yeni\arayuzler_yeni.csproj", "{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +171,10 @@ Global
 		{4BA8280D-6902-433A-8922-DA7D7A776E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA8280D-6902-433A-8922-DA7D7A776E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA8280D-6902-433A-8922-DA7D7A776E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{11E9DA82-453F-410C-A89B-21736FAD5930} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 		{4BA8280D-6902-433A-8922-DA7D7A776E9F} = {45D4B30C-CC37-4852-9AE5-BF68DC8725CE}
+		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71} = {45D4B30C-CC37-4852-9AE5-BF68DC8725CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02D34E63-B07A-4894-826F-94ADBC1CAA01}
