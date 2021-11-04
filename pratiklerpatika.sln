@@ -59,7 +59,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{45D4B30C-CC3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inheritance", "inheritance\inheritance.csproj", "{4BA8280D-6902-433A-8922-DA7D7A776E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arayuzler_yeni", "arayuzler_yeni\arayuzler_yeni.csproj", "{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arayuzler_yeni", "arayuzler_yeni\arayuzler_yeni.csproj", "{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arayuzler_yeni_ornek", "arayuzler_yeni_ornek\arayuzler_yeni_ornek.csproj", "{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +177,10 @@ Global
 		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 		{C4B3D147-ACEA-432F-AF2A-8795F64EDDD0} = {F1827177-C0F9-4ABC-80D1-8F15F2F689AC}
 		{4BA8280D-6902-433A-8922-DA7D7A776E9F} = {45D4B30C-CC37-4852-9AE5-BF68DC8725CE}
 		{1A25E90E-BF92-4AE0-A846-AC0E4A864C71} = {45D4B30C-CC37-4852-9AE5-BF68DC8725CE}
+		{2C3D81AB-DC4A-4BE5-B1DB-D19C1536862D} = {45D4B30C-CC37-4852-9AE5-BF68DC8725CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02D34E63-B07A-4894-826F-94ADBC1CAA01}
